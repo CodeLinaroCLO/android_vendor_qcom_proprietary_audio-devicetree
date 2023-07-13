@@ -7,6 +7,10 @@ dtbo-$(CONFIG_ARCH_WAIPIO) += waipio-audio.dtbo \
                  waipio-audio-hdk.dtbo \
                  cupid-audio-mtp.dtbo \
                  zeus-audio-mtp.dtbo
+                 
+dtbo-$(CONFIG_ARCH_LAHAINA) += \
+                 vili-audio-overlay.dtbo
+
 
 dtbo-n += diwali-audio.dtbo \
                  diwali-audio-idp.dtbo \
